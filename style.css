@@ -1,0 +1,121 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree',sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background: #111;
+}
+
+.container{
+    width: 400px;
+    padding: 20px 40px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+    border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h1{
+    color: #111;
+    font-family: 'Playfair Display',serif;
+}
+
+.container p{
+    margin-top: 30px;
+    line-height: 25px;
+    color: #111;
+    font-weight: 500;
+}
+
+#quote{
+    user-select: none;
+    font-weight: 500;
+    font-family: 'Onest',sans-serif;
+    color: #111;
+}
+
+#auth span{
+    color: royalblue;
+}
+
+button{
+    width: 400px;
+    margin-top: 20px;
+    padding: 15px;
+    outline: none;
+    border: 0;
+    background: royalblue;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.2); */
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+#auth{
+    color: #111;
+    font-weight: 600;
+    user-select: none;
+    font-family: 'Onest',sans-serif;
+    letter-spacing: 0.2px;
+}
+
+.pop-up{
+    position: absolute;
+    width: 130px;
+    top: -50px;
+    text-align: center;
+    padding: 10px 10px;
+    color: #fff;
+    background: royalblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.5);
+    gap: 5px;
+    border-radius: 50px;
+    transition: top .3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.active-pop{
+    top: 50px;
+}
+
+svg{
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.pop-up p{
+    font-weight: 600;
+}
+
+.pop-up svg{
+    margin: 0;
+}
+
+@media (max-width:500px){
+    .container{
+        width: 90%;
+        padding: 20px 20px;
+    }
+
+    button{
+        width: 90%;
+    }
+}
