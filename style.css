@@ -12,7 +12,7 @@ body{
     align-items: center;
     min-height: 100vh;
     flex-direction: column;
-    background: #111;
+    background: lightblue;
 }
 
 .container{
@@ -20,7 +20,7 @@ body{
     padding: 20px 40px;
     background: #fff;
     text-align: center;
-    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+    box-shadow: 0 3px 5px rgba(0,0,0,0.1);
     border-radius: 10px;
     border: 1px solid rgba(255,255,255,0.2);
     display: flex;
@@ -58,7 +58,7 @@ button{
     padding: 15px;
     outline: none;
     border: 0;
-    background: royalblue;
+    background: lightseagreen;
     font-size: 16px;
     color: #fff;
     cursor: pointer;
@@ -82,11 +82,11 @@ button{
     text-align: center;
     padding: 10px 10px;
     color: #fff;
-    background: royalblue;
+    background: lightseagreen;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 5px rgba(0,0,0,0.5);
+    box-shadow: 0 4px 5px rgba(0,0,0,0.1);
     gap: 5px;
     border-radius: 50px;
     transition: top .3s cubic-bezier(0.165, 0.84, 0.44, 1);
