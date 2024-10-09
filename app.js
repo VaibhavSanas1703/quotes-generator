@@ -32,6 +32,9 @@ function getData() {
         <p id='auth'><span>~</span> ${data.quotes[count].author}</p>
         `;
       }, 1000);
+    })
+    .catch((err) => {
+      document.write("Server is not respond please try after some time");
     });
 }
 
